@@ -3,10 +3,11 @@ import HomeScreen from './HomeScreen';
 import ArmyDetails from './ArmyDetails';
 import Login from './Login/Login';
 import SignUp from './Login/SignUp';
+import CreateBattalion from './CreateBattalion'
 
 const Navigator = StackNavigator ({
     
-   Home: {screen: SignUp},
+   Home: {screen: CreateBattalion},
     Army: {screen: ArmyDetails},
     }, 
     {
